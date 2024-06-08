@@ -46,7 +46,7 @@ export default function Atas() {
 
   return (
     <main className="flex flex-col min-h-screen items-center justify-center gap-12 text-slate-900">
-      <Link href="/menu" className="absolute top-5 left-5">
+      <Link href="/menu/bermain" className="absolute top-5 left-5">
         <Image src="/back.svg" alt="back" width={50} height={50} />
       </Link>
       <div className="flex w-full gap-12 justify-center">
