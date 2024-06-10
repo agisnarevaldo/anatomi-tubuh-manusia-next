@@ -40,10 +40,10 @@ export default function Page() {
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                     <div className="flex justify-center w-full gap-4">
-                        <img src="/tangan.png"/>
+                        <img src="/tangan.png" width={200}/>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-                            <h1 className="text-4xl font-bold">Kepala</h1>
+                            <h1 className="text-4xl font-bold">Tangan</h1>
                             <p className="text-2xl font-semibold">Bagian tubuh yang digunakan untuk memegang, mengambil, dan melakukan banyak aktivitas lainnya.</p>
                         </div>
                     </div>
@@ -54,7 +54,9 @@ export default function Page() {
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
                     <div className="flex justify-center w-full gap-4">
-                        <img src="/pundak.png"/>
+                        <div className="flex flex-col justify-center">
+                            <Image src="/pundak.png" alt="pundak" width={300} height={300}></Image> 
+                        </div>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
                             <h1 className="text-4xl font-bold">Pundak</h1>
@@ -68,7 +70,9 @@ export default function Page() {
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
                     <div className="flex justify-center w-full gap-4">
-                        <img src="/dada.png"/>
+                        <div className="flex flex-col justify-center">
+                            <Image src="/dada.png" alt="pundak" width={300} height={300}></Image> 
+                        </div>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
                             <h1 className="text-4xl font-bold">Dada</h1>
@@ -82,7 +86,9 @@ export default function Page() {
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
                     <div className="flex justify-center w-full gap-4">
-                        <img src="/perut.png"/>
+                    <div className="flex flex-col justify-center">
+                            <Image src="/perut.png" alt="pundak" width={300} height={300}></Image> 
+                        </div>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
                             <h1 className="text-4xl font-bold">Perut</h1>
