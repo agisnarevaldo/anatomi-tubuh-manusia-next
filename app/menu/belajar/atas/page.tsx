@@ -115,7 +115,7 @@ export default function Page() {
                         <img src="/mulut.png"/>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-                            <h1 className="text-4xl font-bold">Tangan</h1>
+                            <h1 className="text-4xl font-bold">Mulut</h1>
                             <p className="text-2xl font-semibold">Digunakan untuk berbicara, makan, dan bernapas.</p>
                         </div>
                     </div>
