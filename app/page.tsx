@@ -11,7 +11,7 @@ export default function Home() {
       >
         <Image src="/play.svg" alt="play" width={50} height={50} />
       </Link>
-      <Image src="/anatomi.png" alt="anatomi" width={350} height={350}></Image>
+      <Image src="/anatomi-tubuh.png" alt="anatomi" width={350} height={350}></Image>
     </main>
   );
 }
