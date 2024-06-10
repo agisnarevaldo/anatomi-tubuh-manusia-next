@@ -96,7 +96,7 @@ export default function Page() {
                 </div>
             </div>
             <Link
-                href="/menu"
+                href="/menu/belajar"
                 className="bg-yellow-400 p-2 rounded-full hover:bg-yellow-600 hover:scale-110 transition-all duration-300"
             >
                 <Image src="/back.svg" alt="play" width={50} height={50}/>
