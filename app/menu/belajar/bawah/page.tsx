@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,8 +45,23 @@ export default function Page() {
                         <img src="/paha.png"/>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-                            <h1 className="text-4xl font-bold">Paha</h1>
+                            <h1 className="text-4xl font-bold">Paha (Thigh)</h1>
                             <p className="text-2xl font-semibold">Bagian tubuh antara pinggul dan lutut, terdiri dari otot-otot kuat yang membantu dalam berjalan, berlari, dan melompat.</p>
+
+                            <button
+                                onClick={() => {
+                                    const audio = new Audio("/audio/paha.mp3");
+                                    audio.play();
+                                }}
+                                className="w-max mx-auto bg-yellow-400 p-2 rounded-full hover:bg-yellow-600 hover:scale-110 transition-all duration-300"
+                            >
+                                <Image
+                                    src="/play.svg"
+                                    alt="play audio"
+                                    width={50}
+                                    height={50}
+                                />
+                            </button>
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -57,8 +74,22 @@ export default function Page() {
                         <img src="/lutut.png"/>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-                            <h1 className="text-4xl font-bold">Lutut</h1>
+                            <h1 className="text-4xl font-bold">Lutut (Knee)</h1>
                             <p className="text-2xl font-semibold"> Sendi antara paha dan betis, memungkinkan gerakan fleksi dan ekstensi pada kaki.</p>
+                            <button
+                                onClick={() => {
+                                    const audio = new Audio("/audio/lutut.mp3");
+                                    audio.play();
+                                }}
+                                className="w-max mx-auto bg-yellow-400 p-2 rounded-full hover:bg-yellow-600 hover:scale-110 transition-all duration-300"
+                            >
+                                <Image
+                                    src="/play.svg"
+                                    alt="play audio"
+                                    width={50}
+                                    height={50}
+                                />
+                            </button>
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -71,8 +102,22 @@ export default function Page() {
                         <img src="/betis.png"/>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-                            <h1 className="text-4xl font-bold">Betis</h1>
+                            <h1 className="text-4xl font-bold">Betis (Calve)</h1>
                             <p className="text-2xl font-semibold">Bagian belakang kaki bawah antara lutut dan pergelangan kaki, terdiri dari otot yang membantu dalam berjalan dan berlari.</p>
+                            <button
+                                onClick={() => {
+                                    const audio = new Audio("/audio/betis.mp3");
+                                    audio.play();
+                                }}
+                                className="w-max mx-auto bg-yellow-400 p-2 rounded-full hover:bg-yellow-600 hover:scale-110 transition-all duration-300"
+                            >
+                                <Image
+                                    src="/play.svg"
+                                    alt="play audio"
+                                    width={50}
+                                    height={50}
+                                />
+                            </button>
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -85,8 +130,22 @@ export default function Page() {
                         <img src="/kaki.png"/>
                         <div
                             className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-                            <h1 className="text-4xl font-bold">Kaki</h1>
+                            <h1 className="text-4xl font-bold">Kaki (Feet)</h1>
                             <p className="text-2xl font-semibold">Bagian tubuh di bawah pergelangan kaki, digunakan untuk berdiri, berjalan, dan berlari, serta memiliki peran penting dalam menjaga keseimbangan tubuh.</p>
+                            <button
+                                onClick={() => {
+                                    const audio = new Audio("/audio/kaki.mp3");
+                                    audio.play();
+                                }}
+                                className="w-max mx-auto bg-yellow-400 p-2 rounded-full hover:bg-yellow-600 hover:scale-110 transition-all duration-300"
+                            >
+                                <Image
+                                    src="/play.svg"
+                                    alt="play audio"
+                                    width={50}
+                                    height={50}
+                                />
+                            </button>
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
