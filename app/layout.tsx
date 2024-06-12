@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -19,8 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/*<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />*/}
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
