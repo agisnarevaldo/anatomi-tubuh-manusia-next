@@ -178,6 +178,20 @@ export default function Page() {
             <div className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
               <h1 className="text-4xl font-bold">Telinga</h1>
               <p className="text-2xl font-semibold">Organ untuk mendengar.</p>
+                <button
+                    onClick={() => {
+                    const audio = new Audio("/audio/telinga.mp3");
+                    audio.play();
+                    }}
+                    className="w-max mx-auto bg-yellow-400 p-2 rounded-full hover:bg-yellow-600 hover:scale-110 transition-all duration-300"
+                >
+                    <Image
+                        src="/play.svg"
+                        alt="play audio"
+                        width={50}
+                        height={50}
+                    />
+                </button>
             </div>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
