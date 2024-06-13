@@ -1,11 +1,17 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import Image from "next/image";
 
 export default function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
+
+    useEffect(() => {
+        const utterance = new SpeechSynthesisUtterance(questions[currentQuestion].questionText);
+        utterance.lang = 'id-ID';
+        speechSynthesis.speak(utterance);
+    }, [currentQuestion]);
 
   const questions = [
     {
