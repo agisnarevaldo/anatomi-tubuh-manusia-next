@@ -78,7 +78,7 @@ export default function Page() {
           <div className="flex justify-center w-full gap-4">
             <img src="/rambut.png" />
             <div className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-              <h1 className="text-4xl font-bold">Rambut</h1>
+              <h1 className="text-4xl font-bold">Rambut (Hair)</h1>
               <p className="text-2xl font-semibold">
                 Helai yang tumbuh di kepala, memberikan perlindungan dan
                 isolasi.
@@ -176,7 +176,7 @@ export default function Page() {
           <div className="flex justify-center w-full gap-4">
             <img src="/telinga.png" />
             <div className="text-center outline outline-offset-2 outline-yellow-400 bg-white flex flex-col my-2 justify-center gap-4 w-1/2 rounded-3xl px-4 ">
-              <h1 className="text-4xl font-bold">Telinga</h1>
+              <h1 className="text-4xl font-bold">Telinga (Ear)</h1>
               <p className="text-2xl font-semibold">Organ untuk mendengar.</p>
                 <button
                     onClick={() => {
