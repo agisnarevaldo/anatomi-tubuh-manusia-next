@@ -19,7 +19,7 @@ export default function Quiz() {
       answerOptions: [
         { answerText: 'Hand', imageSrc: '/tangan.png', isCorrect: false },
         { answerText: 'Foot', imageSrc: '/kaki.png', isCorrect: false },
-        { answerText: 'Head', imageSrc: '/rambut.png', isCorrect: true },
+        { answerText: 'Hair', imageSrc: '/rambut.png', isCorrect: true },
         { answerText: 'Shoulder', imageSrc: '/pundak.png', isCorrect: false },
       ],
     },
@@ -29,7 +29,7 @@ export default function Quiz() {
         answerOptions: [
             { answerText: 'Foot', imageSrc: '/kaki.png', isCorrect: false },
             { answerText: 'Hand', imageSrc: '/tangan.png', isCorrect: true },
-            { answerText: 'Head', imageSrc: '/rambut.png', isCorrect: false },
+            { answerText: 'Hair', imageSrc: '/rambut.png', isCorrect: false },
             { answerText: 'Shoulder', imageSrc: '/pundak.png', isCorrect: false },
         ],
     },
@@ -56,7 +56,7 @@ export default function Quiz() {
             answerOptions: [
                 { answerText: 'Foot', imageSrc: '/kaki.png', isCorrect: false },
                 { answerText: 'Hand', imageSrc: '/tangan.png', isCorrect: false },
-                { answerText: 'Ear', imageSrc: '/mulut.png', isCorrect: true },
+                { answerText: 'Mouth', imageSrc: '/mulut.png', isCorrect: true },
                 { answerText: 'Nose', imageSrc: '/hidung.png', isCorrect: false },
             ],
     },
@@ -80,7 +80,7 @@ export default function Quiz() {
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
     } else {
-      alert(`Quiz ended! Your score is ${score}`);
+      alert(`Skor Anda ${score}`);
     }
   };
 
