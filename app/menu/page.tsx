@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Menu() {
   return (
     <main className="flex min-h-screen items-center justify-center gap-8">
+        <audio src="/audio/bgm.mp3" autoPlay loop></audio>
       <Link href="/" className="absolute top-5 left-5">
         <Image src="/home.svg" alt="home" width={50} height={50} />
       </Link>
