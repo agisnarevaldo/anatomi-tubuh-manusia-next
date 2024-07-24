@@ -42,7 +42,7 @@ export default function Atas() {
     const speechSynthesis = window.speechSynthesis;
     const utterance = new SpeechSynthesisUtterance(text);
     speechSynthesis.speak(utterance);
-  };
+};
 
   return (
     <main className="flex flex-col min-h-screen items-center justify-center gap-12 text-slate-900">
@@ -65,7 +65,7 @@ export default function Atas() {
             src="/rambut.png"
             alt="rambut"
             width={100}
-            height={100}
+          height={100}
           ></Image>
         </button>
         <button onClick={() => handleImageClick("mata")}>
