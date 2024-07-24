@@ -1,10 +1,20 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 
 export default function Menu() {
+    const audioRef = useRef<HTMLAudioElement>(null);
+
+    useEffect(() => {
+        if (audioRef.current) {
+            audioRef.current.volume = 0.5; // Atur volume sesuai keinginan, misalnya 0.5
+          }
+    }, [])
   return (
     <main className="flex min-h-screen items-center justify-center gap-8">
-        <audio src="/audio/bgm.mp3" autoPlay loop></audio>
+    <audio ref={audioRef} src="/audio/bgm.mp3" autoPlay loop></audio>
       <Link href="/" className="absolute top-5 left-5">
         <Image src="/home.svg" alt="home" width={50} height={50} />
       </Link>
