@@ -72,42 +72,7 @@ export default function Quiz() {
         { answerText: 'Nose', imageSrc: '/hidung.png', isCorrect: false },
       ],
     },
-    {
-      questionText: 'Aku bisa berlari dan berjalan, aku ada di bawah tubuhmu. Siapakah aku?',
-      answerOptions: [
-        { answerText: 'Foot', imageSrc: '/kaki.png', isCorrect: true },
-        { answerText: 'Hand', imageSrc: '/tangan.png', isCorrect: false },
-        { answerText: 'Hair', imageSrc: '/rambut.png', isCorrect: false },
-        { answerText: 'Shoulder', imageSrc: '/pundak.png', isCorrect: false },
-      ],
-    },
-    {
-      questionText: 'Aku adalah bagian dari tubuhmu yang digunakan untuk melihat. Siapakah aku?',
-      answerOptions: [
-        { answerText: 'Foot', imageSrc: '/kaki.png', isCorrect: false },
-        { answerText: 'Hand', imageSrc: '/tangan.png', isCorrect: false },
-        { answerText: 'Eye', imageSrc: '/mata.png', isCorrect: true },
-        { answerText: 'Nose', imageSrc: '/hidung.png', isCorrect: false },
-      ],
-    },
-    {
-      questionText: 'Aku berada di tengah wajahmu dan aku digunakan untuk bernapas. Siapakah aku?',
-      answerOptions: [
-        { answerText: 'Foot', imageSrc: '/kaki.png', isCorrect: false },
-        { answerText: 'Hand', imageSrc: '/tangan.png', isCorrect: false },
-        { answerText: 'Eye', imageSrc: '/mata.png', isCorrect: false },
-        { answerText: 'Nose', imageSrc: '/hidung.png', isCorrect: true },
-      ],
-    },
-    {
-      questionText: 'Aku adalah bagian dari tubuhmu yang digunakan untuk mendengar suara. Siapakah aku?',
-      answerOptions: [
-        { answerText: 'Foot', imageSrc: '/kaki.png', isCorrect: false },
-        { answerText: 'Hand', imageSrc: '/tangan.png', isCorrect: false },
-        { answerText: 'Ear', imageSrc: '/telinga.png', isCorrect: true },
-        { answerText: 'Nose', imageSrc: '/hidung.png', isCorrect: false },
-      ],
-    },
+    
   ];
 
   const handleAnswerOptionClick = (isCorrect: boolean) => {
