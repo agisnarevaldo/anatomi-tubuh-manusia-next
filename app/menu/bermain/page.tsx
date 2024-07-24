@@ -17,6 +17,6 @@ export default function Bermain() {
                 <Image src="/back.svg" alt="home" width={50} height={50} />
             </Link>
             <Quiz />
-        </main>
+        </main> 
     );
 }
